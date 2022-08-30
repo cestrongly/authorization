@@ -1,3 +1,11 @@
+/*
+ * @Author: cest
+ * @Date: 2022-08-30 10:02:50
+ * @LastEditTime: 2022-08-30 11:54:54
+ * @LastEditors: cest
+ * @FilePath: /authorization/src/main.ts
+ * @Description: 编辑描述内容
+ */
 import { ViteSSG } from 'vite-ssg'
 import { setupLayouts } from 'virtual:generated-layouts'
 import App from './App.vue'
@@ -7,6 +15,8 @@ import generatedRoutes from '~pages'
 import '@unocss/reset/tailwind.css'
 import './styles/main.css'
 import 'uno.css'
+import './assets/color-ui/stylus/index.styl'
+import './assets/stylus/index.styl'
 
 const routes = setupLayouts(generatedRoutes)
 

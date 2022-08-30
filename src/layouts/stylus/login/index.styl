@@ -1,0 +1,25 @@
+.login
+  height 100vh
+  position relative
+  width 100vw
+  z-index 10
+  &.background-image
+    &::before,
+    &::after
+      content ''
+      height 100%
+      left 0
+      position absolute
+      top 0
+      width 100%
+    &::before
+      background-image url('./bg/1.png')
+      background-position center
+      background-size cover
+      // filter blur(.1rem)
+      z-index -1
+
+    &::after
+      background-color rgba(0, 0, 0, .75)
+      z-index -1
+
