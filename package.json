@@ -15,8 +15,10 @@
     "up": "taze major -I"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
     "@vueuse/core": "^9.1.0",
     "@vueuse/head": "^0.7.9",
+    "element-plus": "^2.2.12",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.17",
     "vue": "^3.2.37",

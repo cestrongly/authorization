@@ -1,0 +1,18 @@
+:deep(.el-input__wrapper)
+  background-color transparent
+  border-radius 5rem
+  box-shadow 0 0 0 1px var(--color-ui-white, var(--color-ui-white)) inset
+
+  &.is-focus
+    box-shadow 0 0 0 1px var(--el-input-focus-border-color) inset
+
+  ::placeholder
+    color var(--color-ui-white)
+
+  .el-input__inner
+    color var(--color-ui-white)
+
+  input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active
+    color color var(--color-ui-white)
+    -webkit-transition color 11111s ease-out,background-color 111111s ease-out
+    -webkit-transition-delay: 111111s;

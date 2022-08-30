@@ -1,7 +1,7 @@
 <!--
  * @Author: cest
  * @Date: 2022-08-30 10:27:44
- * @LastEditTime: 2022-08-30 13:05:20
+ * @LastEditTime: 2022-08-30 15:19:47
  * @LastEditors: cest
  * @FilePath: /authorization/src/layouts/login.vue
  * @Description: 编辑描述内容
@@ -11,7 +11,7 @@ import './stylus/login/index.styl'
 </script>
 
 <template lang="pug">
-main(class="login background-image px-4 py-10 text-center text-gray-700 dark:text-gray-200")
+main.flex.flex-col(class="dark login background-image px-4 py-10 text-center text-gray-700 dark:text-gray-200")
   RouterView
   Footer
   div(class="mt-5 mx-auto text-center opacity-75 dark:opacity-50 text-sm")
